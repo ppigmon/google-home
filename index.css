@@ -1,3 +1,5 @@
+/*some css was copied from the google homepage via the dev tools*/
+
 html {
     height: 100%;
     min-height: 100%;
@@ -22,25 +24,24 @@ html {
 }
 .nav-bar {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-
-#about {
+    align-items: center;   
+    margin-bottom: -160px;
     
+}
+#about {    
     
 }
 #store {
     
 }
 #gmail {
-}
-    
+    margin-left: auto;
+}    
 #images {
 
 }
 #app-icon {
+    padding: 0px 15px 0px 15px;   
     
 }
 #app-icon:hover {
@@ -49,9 +50,7 @@ html {
     opacity: 1;
     height: 40px;
     width: 40px;
-    
 }
-
 #sign-in-button {
     background: #1a73e8;
     border: 1px solid transparent;
@@ -60,8 +59,6 @@ html {
     font-size: 14px;
     letter-spacing: .25px;
     line-height: 16px;
-    margin-left: 10px;
-    margin-right: 8px;
     min-width: 96px;
     padding: 9px 23px;
     text-align: center;
@@ -70,7 +67,6 @@ html {
     box-sizing: border-box;
     color: cornsilk;
     cursor: pointer;
-
 }
 #sign-in-button:hover {
     background: #2b7de9;
@@ -80,34 +76,38 @@ html {
 /* middle of page */
 .main {
     display: flex;
-    align-items: center;
     flex-direction: column;
-
+    align-items: center;
+    justify-content: center;
+    height: 100%;  
 }
 #google-logo {
-    width: 272px;
-    height: 92; 
-    order: 1;
+    width: 272px; 
+    height: 92;    
+    max-height: 100%;
+    max-width: 100%;   
+    margin-bottom: -85px; 
+    margin-right: 50px;
 }
 #search-input {
-    order: 2; 
     background: #fff;
-    display: flex;
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 24px;
-    z-index: 3;
     height: 44px;
-    margin: 0 auto;
     width: 584px;
-    max-width: 546px; 
+    max-width: 584px; 
+    margin-top: 100px;
+    margin-left: inherit;
+    margin-bottom: 25px;
+}
+#search-input:hover {
     background-color: #fff;
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
     border-color: rgba(223,225,229,0);
 }
     
-#search-button {
-    order: 3;
+#search-button {;
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -122,7 +122,7 @@ html {
     text-align: center;
     cursor: pointer;
     user-select: none;
-
+    margin-right: 200px;
     
 }
 #search-button:hover {
@@ -132,14 +132,12 @@ html {
     color: #202124;
 }
 #feeling-lucky-button {
-    order: 3;
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
     font-family: arial,sans-serif;
     font-size: 14px;
-    margin: 11px 4px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
@@ -147,6 +145,8 @@ html {
     text-align: center;
     cursor: pointer;
     user-select: none;
+    margin-left: 100px;
+    margin-top: -47px;
 }
 #feeling-lucky-button:hover {
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
@@ -169,17 +169,19 @@ html {
 .nav-bottom {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(233, 225, 225);
+    background-color: rgb(233, 231, 231);
     position: fixed;
     bottom: 0%;
     width: 100%;
-    padding: 0 20px
+    padding: 0 20px;
+    margin-left: -10;
   
 }
 
 #advertising{
     padding: 15px;
     flex-shrink: 2;
+    margin-left: -25;
 }
 #business{
     padding: 15px;
@@ -189,10 +191,13 @@ html {
 }
 #privacy{
     padding: 15px;
+    margin-left: 700px;
+    
 }
 #terms{
     padding: 15px;
 }
 #settings{
     padding: 15px;
+    
 }
