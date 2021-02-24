@@ -1,0 +1,198 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+/*top of page navigation */
+#app-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+#about, #store, #gmail, #images {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    text-align: center;
+}
+#about:hover, #store:hover, #Gmail:hover, #images:hover {
+    text-decoration: underline;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#about {
+    
+    
+}
+#store {
+    
+}
+#gmail {
+}
+    
+#images {
+
+}
+#app-icon {
+    
+}
+#app-icon:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+    opacity: 1;
+    height: 40px;
+    width: 40px;
+    
+}
+
+#sign-in-button {
+    background: #1a73e8;
+    border: 1px solid transparent;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: cornsilk;
+    cursor: pointer;
+
+}
+#sign-in-button:hover {
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+}
+
+/* middle of page */
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#google-logo {
+    width: 272px;
+    height: 92; 
+    order: 1;
+}
+#search-input {
+    order: 2; 
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 584px;
+    max-width: 546px; 
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+    
+#search-button {
+    order: 3;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+    
+}
+#search-button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+#feeling-lucky-button {
+    order: 3;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+#feeling-lucky-button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+/* bottom navigation */
+#advertising, #business, #how-stuff-works, #privacy, #terms, #settings {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #70757a;
+}
+
+#advertising:hover, #business:hover, #how-stuff-works:hover, #privacy:hover, #terms:hover, #settings:hover {
+    text-decoration: underline;
+}
+    
+.nav-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(233, 225, 225);
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 0 20px
+  
+}
+
+#advertising{
+    padding: 15px;
+    flex-shrink: 2;
+}
+#business{
+    padding: 15px;
+}
+#how-stuff-works{
+    padding: 15px;
+}
+#privacy{
+    padding: 15px;
+}
+#terms{
+    padding: 15px;
+}
+#settings{
+    padding: 15px;
+}
